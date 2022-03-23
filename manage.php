@@ -16,7 +16,7 @@ $PAGE->set_url(new moodle_url('/local/message/manage.php'));
 //contexto. El nivel del sitio al que estamos. En este caso al nivel más alto. system level
 $PAGE->set_context(\context_system::instance());
 //Configuración del título de la página
-$PAGE->set_title('Manage messages');
+$PAGE->set_title(get_string('manage_message','local_message'));
 
 global $DB;
 
